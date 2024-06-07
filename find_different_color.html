@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="reset.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="find_different_color.css" />
+    <link rel="stylesheet" href="reset.css" />
+    
+    <script src="find_different_color.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="modal hidden">
+        <div class="modal-content">
+          <span class="endGame" style="color: red; font-size: 20px"
+            >게임종료!</span
+          >
+          <span class="stageNumber">기록: STAGE 1</span>
+          <span class="try">한 번 더 해볼까요?</span>
+          <button class="closeBtn">닫기</button>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="time">
+          <span class="time__img"><img src="time.png" alt="" /></span>
+          <span class="countSpan">15</span>
+        </div>
+        <div>
+          <span class="stageTitle">STAGE 1</span>
+        </div>
+        <a href="../index.html" class="home">
+          <span class="home__img"><img src="home.png" alt="" /></span>
+        </a>
+      </div>
+      <div class="game">
+        <div class="palette"></div>
+      </div>
+    </main>
+  </body>
+</html>

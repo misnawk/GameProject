@@ -1,0 +1,48 @@
+.second {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: fit-content;
+  gap: 100px;
+}
+
+.rock_paper_scissors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 351px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.rock_paper_scissors:hover {
+  transform: translateY(-5px);
+}
+
+.rock_paper_scissors > img {
+  width: 70%;
+  height: 70%;
+}
+
+.find_different_color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 351px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.find_different_color:hover {
+  transform: translateY(-5px);
+}
+
+.find_different_color > img {
+  width: 70%;
+  height: 70%;
+}

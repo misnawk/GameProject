@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="rock_paper_scissors.css" />
+    <script src="rock_paper_scissors.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="modal hidden">
+        <div class="modal-content">
+          <span class="result1">비김!</span>
+          <span class="result2">PC : ✊</span>
+          <span class="result3">Player : ✌️</span>
+          <span class="result4">3초 뒤 자동으로 닫힙니다.</span>
+          <button class="close_btn">닫기</button>
+        </div>
+      </div>
+
+      <div class="modal_end hidden">
+        <div class="modal-content">
+          <span class="end1">!!!!!!!게임종료!!!!!!!!</span>
+          <span class="end2" style="font-size: 30px">점수 : x점</span>
+          <span class="end3">x번의 승리</span>
+          <span class="end4">y번의 패배</span>
+          <span class="end5">z번의 무승부</span>
+
+          <span class="end6">10초후 자동으로 닫힙니다.</span>
+
+          <button class="close_btn__end">닫기</button>
+        </div>
+      </div>
+
+      <div class="menu">
+        <div class="heart">
+          <img src="heart.png" alt="" />
+          <span class="heart__count">3</span>
+        </div>
+
+        <div href="" class="tool">
+          <a class="stop">
+            <img src="stop.png" alt="" />
+          </a>
+          <a href="../index.html" class="home">
+            <img src="home.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="totalScore">
+          <div class="pcScore">
+            <span class="pcScore__pc">PC : 0</span>
+          </div>
+
+          <div>
+            <span>VS</span>
+          </div>
+
+          <div class="userScore">
+            <span class="userScore__user">Player : 0</span>
+          </div>
+        </div>
+
+        <div class="selection">
+          <img class="selection__img" src="" alt="" />
+        </div>
+
+        <div class="chose">
+          <button class="scissors">가위</button>
+
+          <button class="rock">바위</button>
+
+          <button class="paper">보</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
